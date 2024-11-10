@@ -1,0 +1,328 @@
+html {
+    background-color:#0b0000 ;
+}
+header {
+    display: flex;
+    position: fixed;
+    border-bottom-style: solid;
+    border-bottom-color: #222222;
+}
+::-webkit-scrollbar-thumb {
+   background-color: #0b0000;
+}
+::-webkit-scrollbar-track {
+   background-color: #0b0000;
+}
+.logo {
+    display: flex;
+}
+.text {
+    display: flex;
+    margin-top: 15px;
+}
+.last-section {
+    display: flex;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.image-logo {
+    padding: 25px 15px;
+    margin-left: -10px;
+}
+.get-plus {
+    margin-right: 30px;
+    margin-top: 33px;
+}
+.get-plus a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+#get-plus:hover {
+    color: #ff9100;
+}
+sup {
+    color: #ff9100;
+}
+.search-bar {
+    background-color: #222222;
+    border: 1px solid #222222;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 350px;
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 20px;
+  }
+  .search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    margin-right: px;
+    background-color: #222222;
+    color: #ffffff;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: smaller;
+  }
+ .discover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+ }
+ .discover a {
+    text-decoration: none;
+    color: #ff9100;
+    cursor: pointer;
+ }
+ .other-texts {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+ }
+ .other-texts a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+ }
+ .my-library {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 220px;
+ }
+ .my-library a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+ }
+ .notify-icon {
+    margin-top: 10px;
+    margin-right: 15px;
+ }
+ .profile-icon {
+    margin-right: 15px;
+ }
+ .uploads {
+    background-color: #222222;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+ }
+ #upload {
+    color: #ffffff;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    padding-bottom: 20px;
+ }
+ #uploads {
+    padding-right: 10px;
+ }
+ .divider {
+    background-color:#222222;
+    height: 0.5px;
+    margin-top: 10px;
+  }
+  .browse {
+    color: #ff9100;
+    margin-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .container {
+   display: flex;
+}
+.toggle-button {
+   width: 25px;
+   height: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   cursor: pointer;
+   position: inherit;
+   z-index: 1;
+   padding-left: 10px;
+   padding-top: 100px;
+   transition: transform 0.3s ease-in-out;
+   opacity: 1;
+ }
+ 
+ .bar {
+   width: 70%;
+   height: 3px;
+   background-color: white;
+   border-radius: 0px;
+   opacity: 1;
+ }
+  .sidebar {
+    width: 410px;
+    background-color: #0b0000;
+    position: fixed;
+    overflow-y: auto;
+    margin-top: 90px;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    margin-top: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+/* This is a mediaquery to allow the side bar hide to a toogle button in smaller screens than 800px by translating it to the left by 100%  */
+@media screen and (max-width: 800px) {
+   .sidebar {
+     transform: translateX(-100%);
+   }
+ }
+.main-content {
+   padding: 80px;
+   margin-left:440px;
+   margin-top: 95px;
+   padding-top: 25px;
+   padding-left: 50px;
+   background-color: #0b0000;
+   height: 435px;
+   width: 60%;
+   top: 0;
+   overflow-y: scroll;
+   overflow-x: scroll;
+}
+nav a {
+   text-decoration: none;
+   color: #ffffff;
+   opacity: 0.75;
+}
+nav ul {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 17px;
+   font-weight: 900;
+   margin-left: 40px;
+}
+.home {
+   margin-bottom: 30px;
+}
+.other-side-text {
+   margin-bottom: 30px;
+}
+.home:hover {
+   color: #ff9100;
+}
+.other-side-text :hover {
+   color: #ff9100;
+}
+.side1, .side2 {
+   border-bottom-style: solid;
+   border-bottom-color: #222222;
+}
+#all-genres {
+   background-color: #000000;
+   border-radius: 30px;  
+   border-color: #ff9100;
+   border-style: solid;
+   padding: 5px 10px;
+   margin-left: 5px;
+}
+#all-genres a {
+   text-decoration: none;
+   color: #ffffff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 700;
+}
+#otherside-button {
+   background-color: #000000;
+   border-radius: 30px;  
+   border-color: #222222;
+   border-style: solid;
+   padding: 5px 10px;
+   margin-left: 5px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+#otherside-button a {
+   text-decoration: none;
+   color: #ffffff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 700;
+}
+#otherside-button:hover {
+   border-color: grey;
+}
+.sidebar-buttons {
+   margin-left: 70px;
+}
+.main-text {
+   color: #ffffff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 18px;
+   font-weight: 900;
+   margin-top: 0px;
+   margin-left: -51px;
+   padding-left: -20px;
+ }
+ .song-text {
+   color: #ffffff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+   margin-top: 10px;
+   margin-bottom: -20px;
+   margin-left: 60px;
+   cursor: pointer;
+ }
+ .under-text {
+   color: #ffffff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   margin-left: 50px;
+   cursor: pointer;
+ }
+ .song-text:hover, .under-text:hover {
+   color: #ff9100;
+ }
+ .feats {
+   color: #ff9100;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 12px;
+   margin-top: 0px;
+ }
+ .music-image {
+   padding-right: 30px;
+   margin-left: 0px;
+ }
+ .music-item {
+   position: relative;
+ }
+ .play-button {
+   position: absolute;
+   padding: 6px 6px;
+   top: 60%;
+   left: 70%;
+   transform: translate(-50%, -50%);
+   background-color: #ff9100;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+ }
+ .music-item:hover .play-button {
+   opacity: 1;
+ }
+ .albums1,.album2 {
+   display: flex;
+   margin-top: 50px;
+ }
+.show-hidden-items {
+   background-color: #ff9100;
+   height: 40px;
+   opacity: 0;
+   transform: translate(-50%, -50%);
+} 
+.music-item:hover .show-hidden-items{
+   opacity: 1;
+}
+
+ 
