@@ -203,6 +203,7 @@ nav ul {
 }
 .other-side-text {
    margin-bottom: 30px;
+   font-size: 15px;
 }
 .home:hover {
    color: #ff9100;
